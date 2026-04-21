@@ -1,16 +1,52 @@
-# React + Vite
+ 🐶 Pet Adoption System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Description
 
-Currently, two official plugins are available:
+The Pet Adoption System is a full-stack web application that allows users to view and adopt pets online. It helps manage pet details, user information, and adoption processes efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Technologies Used
 
-## React Compiler
+• Frontend: React, HTML, CSS, JavaScript
+• Backend: Spring Boot (Java)
+• Database: MySQL
+• API Testing: Postman
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ ⚙️ Features
+ 
+• View available pets
+• Add new pets
+• Edit pet details
+• Delete pets
+• Adopt pets
+• User registration and login
 
-## Expanding the ESLint configuration
+ 🧠 Architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Client → Controller → Service → Repository → Database
+
+ 🔁 Project Flow
+
+1. User interacts with frontend (React)
+2. Frontend sends API request using Axios
+3. Controller receives request
+4. Service processes business logic
+5. Repository interacts with MySQL database
+6. Response is sent back to frontend
+
+ ▶️ How to Run the Project
+
+Backend:
+
+1. Open backend folder in IDE
+2. Run Spring Boot application
+
+ Frontend:
+
+1. Open frontend folder
+2. Run:
+   npm install
+   npm run dev
+
+ 👩‍💻 Author
+
+Chintada RamyaSri
